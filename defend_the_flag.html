@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Defend the Flag</title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./img/flag.png" />
+    <link href="./css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <canvas id="canvas" width="800" height="600"></canvas>
+    <audio id="bg_music" src="./audio/background.mp3" autoplay loop muted></audio>
+    <img src="./img/logo.png" alt="" id="game_name">
+    <button id="start_button">START</button>
+    <button id="howtoplay_button">HOW TO PLAY</button>
+    <button id="options_button">OPTIONS</button>
+    <button id="back_button" style="display:none">BACK</button>
+    <div id="howtoplay_div">
+      <p id="howtoplay_text" style="display:none">Try to defend the flag! To protect the flag from enemy tanks, you have your tank at your disposal.
+        But be careful! Your tank will be destroyed by one shot from an enemy tank. Sometimes the enemies will also be joined by aircraft,
+        which will instantly destroy you when they fly over you. There will also be the occasional bomb on the ground.
+        You have to get to it and defuse it as soon as possible, otherwise it will blow everything up.<br><br>
+        Control your tank with the "W" "A" "S" "D" keys and shoot with the "SPACE" key.<br><br>
+        Now that you know that, let's fight! </p>
+    </div>
+    <img src="./img/volume_on.png" alt="" style="display:none" id="volume_on">
+    <img src="./img/volume_off.png" alt="" style="display:none" id="volume_off">
+
+    <img src="./img/win.png" alt="" style="display:none" id="win_img">
+    <img src="./img/lose.png" alt="" style="display:none" id="lose_img">
+
+    <script src="./js/model.js"></script>
+    <script src="./js/view.js"></script>
+    <script src="./js/controller.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

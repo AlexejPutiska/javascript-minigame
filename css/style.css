@@ -1,0 +1,109 @@
+body {
+  background-color: rgb(200, 200, 200);
+  display: flex;
+  font-family:Verdana;
+}
+
+#canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(112, 112, 112); 
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+button {
+  padding: 15px 25px;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  color: whitesmoke;
+  background-color: #222222;
+  border-color: whitesmoke;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+button:hover {
+  background-color:#E10800;
+  background-color:#545454;
+  transition: 0.3s;
+}
+
+#start_button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#howtoplay_button {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#options_button {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#game_name {
+  position: absolute;
+  width: 740px;
+  top: 30%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+}
+
+#back_button {
+  position: absolute;
+  top: 85%;
+  left: 26%;
+  padding: 10px 15px;
+  font-size: 12px;
+  transform: translate(-50%, -50%);
+}
+
+#volume_on,
+#volume_off {
+  position: absolute;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#howtoplay_div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #222222;
+  border-radius: 5px;
+  z-index: 1;
+}
+#howtoplay_text {
+  margin: 34px;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 19px;
+  text-align: justify;
+}
+
+#win_img,
+#lose_img {
+  position: absolute;
+  width: 550px;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
